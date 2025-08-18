@@ -449,7 +449,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>
     (function () {
-      emailjs.init("service_w435ix5"); // Ganti dengan User ID dari EmailJS
+      emailjs.init("qPEPJE0PeLhcgPHIt"); // Ganti dengan User ID dari EmailJS
     })();
 
     document.getElementById("contact-form").addEventListener("submit", function (event) {
@@ -467,7 +467,7 @@
       };
 
       // Kirim email
-      emailjs.send("service_l51cu3q", "template_fhfgbfk", templateParams)
+      emailjs.send("service_w435ix5", "template_fhfgbfk", templateParams)
         .then(function (response) {
           alert("Email successfully sent!");
           document.getElementById("contact-form").reset(); // Reset form setelah terkirim
